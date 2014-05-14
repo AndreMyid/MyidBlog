@@ -1,0 +1,27 @@
+{
+    "name": "andremyid/myidblog",
+    "description": "Myid personal Config Blog",
+    "keywords": ["andremyid"],
+    "type": "library",
+    "homepage": "https://github.com/andremyid",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andremyid",
+            "email": "android@andre.my.id"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    },
+    "minimum-stability": "dev"
+}
