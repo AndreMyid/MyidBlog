@@ -2,8 +2,9 @@
 	"name": "andremyid/myidblog",
 	"description": "Myid personal Blog config",
 	"keywords": ["andremyid", "andre.my.id"],
+	"url": "https://github.com/AndreMyid/MyidBlog",
 	"license": "MIT",
-	"type": "composer",
+	"type": "Library",
 	"authors": [
 		{
 			"name": "Andremyid",
@@ -14,7 +15,7 @@
 	],
 	"support": {
 		"email": "support@andre.my.id"
-	}
+	},
 		"require": {
 			"php": ">=5.2.0",
 			"ext-curl": "*",
