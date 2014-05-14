@@ -1,31 +1,30 @@
 {
-    "name": "andremyid/myidblog",
-    "description": "Myid personal Blog config",
-    "keywords": ["andremyid", "andre.my.id"],
-    "license": "MIT",
-    "type": "composer",
-    "url": "https://github.com/AndreMyid/MyidBlog"
-    "authors": [
-        {
-            "name": "Andremyid",
-            "email": "android@andre.my.id",
+	"name": "andremyid/myidblog",
+	"description": "Myid personal Blog config",
+	"keywords": ["andremyid", "andre.my.id"],
+	"license": "MIT",
+	"type": "composer",
+	"authors": [
+		{
+			"name": "Andremyid",
+			"email": "android@andre.my.id",
 			"homepage": "http://www.andre.my.id",
 			"role": "Developer"
-        }
-    ],
-    "support": {
-        "email": "support@andre.my.id"
-    }
-    "require": {
-        "php": ">=5.2.0",
-        "ext-curl": "*",
-        "ext-json": "*"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "3.7.*"
-    },
-    "autoload": {
-        "classmap": ["src"]
-    },
-    "minimum-stability": "dev"
+		}
+	],
+	"support": {
+		"email": "support@andre.my.id"
+	}
+		"require": {
+			"php": ">=5.2.0",
+			"ext-curl": "*",
+			"ext-json": "*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "3.7.*"
+	},
+	"autoload": {
+		"classmap": ["src"]
+	},
+	"minimum-stability": "dev"
 }
