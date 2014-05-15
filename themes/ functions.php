@@ -59,3 +59,21 @@ function hide_help() {
     </style>';
 }
 add_action('admin_head', 'hide_help'); /**/
+
+/**
+* Function creating custom "Welcome" admin
+*
+* @return Response
+*/ 
+function set_welcome_panel() {
+	echo
+	'<div class="welcome-panel-content">'
+	.'<h3>Selamat Datang di Panel Admin!</h3>'
+	.'<p class="about-description">Kami sudah siapkan beberapa tautan untuk membantu Anda mulai:</p>'
+	.'<div class="welcome-panel-column-container">'
+	
+	.'</div>'
+	.'</div>';
+}
+remove_action('welcome_panel','wp_welcome_panel');
+add_action('welcome_panel','set_welcome_panel'); /**/
