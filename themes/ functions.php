@@ -14,7 +14,7 @@ function remove_wp_logo( $wp_admin_bar ) {
 * Function remove notices dashboard admin.
 *
 * @return Response
-*/
+*/ /*
 function wphidenag() {
 	remove_action( 'admin_notices', 'update_nag', 3 );
 }
@@ -44,7 +44,7 @@ function remove_dashboard_widgets() {
 	// Remove the primary feed widget
 	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_primary']);
 	// Remove the secondary feed widget
-	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_secondary']);
+//	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_secondary']);
 }	// Hoook into the 'wp_dashboard_setup' action to register our function
 add_action('wp_dashboard_setup', 'remove_dashboard_widgets' ); /**/
 
@@ -52,7 +52,7 @@ add_action('wp_dashboard_setup', 'remove_dashboard_widgets' ); /**/
 * Function remove help tab dashboard admin.
 *
 * @return Response
-*/
+*/ /*
 function hide_help() {
 	echo '<style type="text/css">
             #contextual-help-link-wrap { display: none !important; }
@@ -64,7 +64,7 @@ add_action('admin_head', 'hide_help'); /**/
 * Function creating custom "Welcome" admin
 *
 * @return Response
-*/ 
+*/ /*
 function set_welcome_panel() {
 	echo
 	'<div class="welcome-panel-content">'
