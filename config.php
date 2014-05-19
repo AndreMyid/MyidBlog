@@ -1,2 +1,2 @@
 /** Menentukan lokasi file direktori. */
-define ('UPLOADS', ''.'assets/img' );
+define ('UPLOADS', ''.'assets/upload' );
