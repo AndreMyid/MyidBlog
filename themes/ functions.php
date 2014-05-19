@@ -1,4 +1,4 @@
-
+<?php
 
 /**
 * Function remove ico logo admin.
@@ -71,7 +71,7 @@ function set_welcome_panel() {
 	.'<h3>Selamat Datang di Panel Admin!</h3>'
 	.'<p class="about-description">Kami sudah siapkan beberapa tautan untuk membantu Anda mulai:</p>'
 	.'<div class="welcome-panel-column-container">'
-	
+
 	.'</div>'
 	.'</div>';
 }
